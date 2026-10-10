@@ -1,0 +1,15 @@
+{
+  "url": "https://empty-chair-index.pages.dev/",
+  "verifiedAt": "2026-10-10",
+  "status": "PASS",
+  "checks": {
+    "publicPageLoaded": true,
+    "title": "Empty Chair Index",
+    "contractAddressBound": "0x78a2eA18Af2F1bB6Fd7EAC941ad4926745A45B90",
+    "walletActionVisible": true,
+    "completeLifecycleVisible": true,
+    "desktopLayout": "PASS",
+    "visualIdentity": "circular civic amphitheatre with central podium",
+    "accountNameAbsentFromHostname": true
+  }
+}

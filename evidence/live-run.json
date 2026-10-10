@@ -1,0 +1,66 @@
+{
+  "hearingId": "CHAMBER-1791661899",
+  "contract": "0x78a2eA18Af2F1bB6Fd7EAC941ad4926745A45B90",
+  "transactions": {
+    "convene": "0xc3510665d1ed5568c5c88009926ac493dccc952696bbd4d47f7fd7d200c028c4",
+    "RESIDENT": "0xc887892874ff536e62fa30dac743a6b9f773a93e894a071e99b0fc97a673711e",
+    "OPERATOR": "0xe0e6b09c0b194146716340ea3ccec0b33ef358f4efd085c3110b65ad4d717fcb",
+    "ACCESS": "0xcebbab5b9a856f814e793a785175aa1a32beece6aeb6c0dde1f269906c88e75e",
+    "replay": "0x53fa1c0234d12b0c6c6e0869f0746c01064c0a8c123bd0fd47fa1a3a346cc429",
+    "seal": "0x95634c4be4a5982135185871ae203a7ada0b1d532517eb34f8b75be2b8052cee"
+  },
+  "placements": [
+    {
+      "id": "RESIDENT-1791661899",
+      "relation": "FILLS",
+      "role": "RESIDENT"
+    },
+    {
+      "id": "OPERATOR-1791661899",
+      "relation": "FILLS",
+      "role": "OPERATOR"
+    },
+    {
+      "id": "ACCESS-1791661899",
+      "relation": "FILLS",
+      "role": "ACCESS"
+    }
+  ],
+  "final": {
+    "chairs": [
+      {
+        "description": "Residents who can only visit after work and need the archive to remain practically usable in the evening.",
+        "id": "RESIDENT",
+        "testimony_id": "RESIDENT-1791661899"
+      },
+      {
+        "description": "Frontline staff responsible for safe closing, manageable workload, and reliable evening procedures.",
+        "id": "OPERATOR",
+        "testimony_id": "OPERATOR-1791661899"
+      },
+      {
+        "description": "Visitors who need step-free routes, assistive navigation, and enough time to use the service independently.",
+        "id": "ACCESS",
+        "testimony_id": "ACCESS-1791661899"
+      }
+    ],
+    "convener": "0xc8e8f5B7d61Da6eD160f474592627D65728b516e",
+    "id": "CHAMBER-1791661899",
+    "question": "How should the public archive redesign evening access without excluding residents, frontline operators, or people who need accessible routes?",
+    "state": "SEALED",
+    "testimony_ids": [
+      "RESIDENT-1791661899",
+      "OPERATOR-1791661899",
+      "ACCESS-1791661899"
+    ]
+  },
+  "normalizedReplay": {
+    "consensus": "MAJORITY_AGREE",
+    "execution": [
+      "ERROR",
+      "ERROR"
+    ],
+    "stateUnchanged": true
+  },
+  "fixtureDisclosure": "Statements and wallets are operator-controlled fixtures used to prove bounded semantic placement, cross-wallet replay rejection, and permissionless sealing."
+}

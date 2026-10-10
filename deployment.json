@@ -1,0 +1,12 @@
+{
+  "network": "StudioNet",
+  "account": "IDAK2",
+  "contractAddress": "0x78a2eA18Af2F1bB6Fd7EAC941ad4926745A45B90",
+  "deploymentTransaction": "0xb766b484aa8eba1c1b5c125ec13d9ac0e7a295658a944ea7db76cc115914b165",
+  "deploymentConsensus": "MAJORITY_AGREE",
+  "deploymentExecution": "SUCCESS",
+  "sourceSha256": "c9b85b9ea850d5ea78588167b2cd0661cd13fa449995e681155922f64b8ba01e",
+  "sourceCommit": "e0076213188886b9e2814717e66d46c78f829061",
+  "repository": "https://github.com/IDAK2/empty-chair-index",
+  "publicSite": "https://empty-chair-index.pages.dev/"
+}
